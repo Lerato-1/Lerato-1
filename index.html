@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book/Novel Summarizer</h1>
+        <p>Paste your book text below and click "Summarize" to get a concise summary.</p>
+    </header>
+    <main>
+        <label for="bookText">Enter Book Text:</label>
+        <textarea id="bookText" placeholder="Paste your book text here..."></textarea>
+        <button id="summarizeBtn">Summarize</button>
+        <div id="loader" class="hidden">Generating summary...</div>
+        <h2>Summary:</h2>
+        <div id="summary" class="summary-box"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
